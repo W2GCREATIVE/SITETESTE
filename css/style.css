@@ -2777,7 +2777,7 @@ revievs
   transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
 }
 .mil-slider-nav .mil-slider-arrow svg path {
-  fill: rgb(255, 152, 0);
+  fill: rgb (228,224,215);
 }
 .mil-slider-nav .mil-slider-arrow.mil-prev {
   margin-right: 10px;
