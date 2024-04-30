@@ -226,8 +226,8 @@ function scrollArray(elem, left, top) {
     var step = function (time) {
 
         var now = Date.now();
-        var scrollX = 0;
-        var scrollY = 0;
+        var scrollX = 0.5;
+        var scrollY = 0.5;
 
         for (var i = 0; i < que.length; i++) {
 
