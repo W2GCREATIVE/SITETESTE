@@ -43,12 +43,6 @@ $(function () {
     var light = '#fff';
 
 
-    /*redirecionamento site*/
-    function redirecionarParaOutroSite(url) {
-        window.location.href = url;
-    }
-
-
     /***************************
      * 
      * 
@@ -168,6 +162,18 @@ $(function () {
     function toggleMenu(clickedMenu) {
         menuToggles.forEach((toggleFn) => toggleFn(clickedMenu));
     }
+
+    function redirecionarParaOutroSite(url) {
+        window.location.href = url;
+      }
+    
+      document
+        .getElementById("contatoInstagram")
+        .addEventListener("click", function () {
+          redirecionarParaOutroSite(
+            "https://www.instagram.com/w2g.creative/?hl=en"
+          );
+        });
 
     function createAnimation(element) {
         let menu = element.querySelector(".mil-accordion-menu");
