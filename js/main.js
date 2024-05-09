@@ -175,13 +175,7 @@ $(function () {
           );
         });
 
-    document
-    .getElementById("contatoWhats")
-    .addEventListener("click", function () {
-      redirecionarParaOutroSite(
-        "https://api.whatsapp.com/message/BG7RND5WQNDXN1?autoload=1&app_absent=0"
-      );
-    });
+
 
     function createAnimation(element) {
         let menu = element.querySelector(".mil-accordion-menu");
