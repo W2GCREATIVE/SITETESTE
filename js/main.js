@@ -42,10 +42,17 @@ $(function () {
     var dark = '#000';
     var light = '#fff';
 
-    /***************************
 
-    preloader
-    
+    /*redirecionamento site*/
+    function redirecionarParaOutroSite(url) {
+        window.location.href = url;
+    }
+
+
+    /***************************
+     * 
+     * 
+     * 
     ***************************/
 
     var timeline = gsap.timeline();
