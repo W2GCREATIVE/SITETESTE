@@ -167,13 +167,7 @@ $(function () {
         window.location.href = url;
       }
     
-      document
-        .getElementById("contatoInstagram")
-        .addEventListener("click", function () {
-          redirecionarParaOutroSite(
-            "https://www.instagram.com/w2g.creative/?hl=en"
-          );
-        });
+
 
 
 
