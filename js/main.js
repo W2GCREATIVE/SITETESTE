@@ -179,7 +179,7 @@ $(function () {
     .getElementById("contatoWhats")
     .addEventListener("click", function () {
       redirecionarParaOutroSite(
-        "https://api.whatsapp.com/send?phone=5511980344897&amp;text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20or%C3%A7amento"
+        "https://api.whatsapp.com/message/BG7RND5WQNDXN1?autoload=1&app_absent=0"
       );
     });
 
