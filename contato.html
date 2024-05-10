@@ -99,7 +99,7 @@
  <nav class="mil-main-menu" id="swupMenu">
                                 <ul>
                                     <li class="mil-has-children mil-active">
-                                        <a href="index.html">Pagina Inicial</a>
+                                        <a href="index.html">Página Inicial</a>
                                           <ul>
                                       <!-- <li><a href="index.html">W2G CREATIVE</a></li>
                                            <li><a href="index.html">Personal</a></li>
@@ -248,13 +248,11 @@
                 <!-- banner end -->
 
                 <section class="mil-p-120">
-                    <div class="container mil-p-0-120" id="project">
-                        <div class="mil-image-frame mil-horizontal mil-up mil">
-                            <img src="img/photo/contatos.png">
+                    <div class="container mil-p-0-60" id="project">
+                        <div class="mil-image-frame teste-horizontal teste-vertical">
+                            <img src="img/photo/contatos.png" style="max-width: 100%; height: auto;">
                         </div>
                     </div>
-                </section>
-
 
 
                 <!-- contact form -->
@@ -558,16 +556,19 @@
           window.open(url, '_blank');
         }
         </script>
-<!--contato wpp 2-->
+
 <script>
-    document.getElementById("contatoWhats2").addEventListener("click", function () {
-      redirecionarParaOutroSite("https://api.whatsapp.com/message/BG7RND5WQNDXN1?autoload=1&app_absent=0");
-    });
+    document.getElementById("contatoWhats2").addEventListener("click", function (event) {
+     event.stopPropagation();
+     redirecionarParaOutroSite("https://api.whatsapp.com/message/BG7RND5WQNDXN1?autoload=1&app_absent=0");
+        });
+
     
     function redirecionarParaOutroSite(url) {
       window.open(url, '_blank');
     }
     </script>
+
 
     <!--contato Instagram-->
     <script>
