@@ -130,8 +130,8 @@
                                         <ul>
                                             <li><a href="nosso-time.html">Nosso Time</a></li>
                                             <li><a href="contato.html">Contato</a></li>
-					                        <li><a href="#" id="contatoInstagram1">Instagram</a></li>
-                                       <li><a href="#" id="contatoWhats1">WhatsApp</a></li>
+					                        <li><a href="#" id="contatoInstagram">Instagram</a></li>
+                                       <li><a href="#" id="contatoWhats">WhatsApp</a></li>
                                         </ul>
                                     </li>
                                 </ul>
@@ -299,7 +299,7 @@
                                             <div style="display:flex ; justify-content: center;">
                                                 <div class="col-md-3">
                                                     <div class="mil-adaptive-right mil-up mil-mb-30">
-                                                    <button id="contatoWhats2" class="mil-button mil-arrow-place"><span>Enviar Mensagem </span></button>
+                                                    <button id="contatoWhats" class="mil-button mil-arrow-place"><span>Enviar Mensagem </span></button>
                                                     </div>
                                                 </div>
                                             </div>
@@ -546,40 +546,7 @@
     <!-- ashley js -->
     <script src="js/main.js"></script>
 
-    <!--contato wpp 1-->
-    <script>
-        document.getElementById("contatoWhats1").addEventListener("click", function () {
-          redirecionarParaOutroSite("https://api.whatsapp.com/message/BG7RND5WQNDXN1?autoload=1&app_absent=0");
-        });
-        
-        function redirecionarParaOutroSite(url) {
-          window.open(url, '_blank');
-        }
-        </script>
-
-<script>
-    document.getElementById("contatoWhats2").addEventListener("click", function (event) {
-     event.stopPropagation();
-     redirecionarParaOutroSite("https://api.whatsapp.com/message/BG7RND5WQNDXN1?autoload=1&app_absent=0");
-        });
-
     
-    function redirecionarParaOutroSite(url) {
-      window.open(url, '_blank');
-    }
-    </script>
-
-
-    <!--contato Instagram-->
-    <script>
-        document.getElementById("contatoInstagram1").addEventListener("click", function () {
-          redirecionarParaOutroSite("https://www.instagram.com/w2g.creative/");
-        });
-        
-        function redirecionarParaOutroSite(url) {
-          window.open(url, '_blank');
-        }
-        </script>
 
 </body>
 

@@ -26,6 +26,26 @@ $(function () {
     };
     const swup = new Swup(options);
 
+      /***************************
+
+    REDIRECIONAR WHATSAPP + INSTAGRAM
+ 
+    ***************************/
+   
+    document.body.addEventListener("click", function (event) {
+        if (event.target.id === "contatoWhats") {
+          redirecionarParaOutroSite(
+            "https://api.whatsapp.com/message/BG7RND5WQNDXN1?autoload=1&app_absent=0"
+          );
+        } else if (event.target.id === "contatoInstagram") {
+          redirecionarParaOutroSite("https://www.instagram.com/w2g.creative/");
+        }
+      });
+    
+      function redirecionarParaOutroSite(url) {
+        window.open(url, "_blank");
+      }
+
     /***************************
 
     register gsap plugins
